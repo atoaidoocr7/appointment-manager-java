@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/appointment")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AppointmentController {
     @Autowired
     AppointmentService appointmentService;
