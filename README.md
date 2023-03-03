@@ -30,11 +30,12 @@ Make sure you have the Java Development Kit (JDK) installed before proceeding.
 8. You should be back on the home page now, if not navigate to the home page
 9. Click on build database
 10. Click on the free tier and leave everything else on default
-11. Home page should now look like this.
-12. Click on connect
+11. Navigate back to home page
+12. Click on connect in the top left of home page screen
 13. Next, click on "Connect your application"
 14. You should get a screen with a connection uri that looks like this: mongodb+srv://ato-aidoo:password@cluster0.wxuiqrr.mongodb.net/?retryWrites=true&w=majority
 15. In the connection uri, replace the string "password" with your actual password 
+16. This is the uri connection string you will use to connect to MongoDB from the Springboot application
 
 
 
